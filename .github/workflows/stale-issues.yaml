@@ -15,8 +15,8 @@ jobs:
     steps:
     - uses: actions/stale@v9
       with:
-        stale-issue-message: '@qualcomm/stale-notify-test This issue has been marked as stale due to 60 days of inactivity. To prevent automatic closure in 10 days, remove the stale label or add a comment. You can reopen a closed issue at any time.'
-        stale-pr-message: '@qualcomm/stale-notify-test This pull request has been marked as stale due to 60 days of inactivity. To prevent automatic closure in 10 days, remove the stale label or add a comment. You can reopen a closed pull request at any time.'
+        stale-issue-message: '@qualcomm-linux-stg/test-team-mention-for-stale-bot This issue has been marked as stale due to 60 days of inactivity. To prevent automatic closure in 10 days, remove the stale label or add a comment. You can reopen a closed issue at any time.'
+        stale-pr-message: '@qualcomm-linux-stg/test-team-mention-for-stale-bot This pull request has been marked as stale due to 60 days of inactivity. To prevent automatic closure in 10 days, remove the stale label or add a comment. You can reopen a closed pull request at any time.'
         exempt-issue-labels: 
         exempt-pr-labels: 
         days-before-stale: 0
